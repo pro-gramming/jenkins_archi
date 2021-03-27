@@ -21,9 +21,3 @@ networks:
   net:
 
 
-# don't forget to provide proper permissions so that jenkins with id 1000
-  can write to jenkins_home folder.
-
-  > chown 1000:1000 jenkins_home -R
-
-  ( where 1000 is the id of the jenkins user with which it runs) 
